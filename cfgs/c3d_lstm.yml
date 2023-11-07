@@ -1,0 +1,16 @@
+NF: 16
+VCL: 32
+apply_softmax: true
+batch_size: 16
+class_weights: (0.3, 0.7)
+data_mean: [.5, .5, .5]
+data_path: ./data/dota
+data_std: [.5, .5, .5]
+dataset: Dota
+dropout: 0.3
+image_shape: [720, 1280]
+input_shape: [112, 112]
+lr: 0.00005
+rnn_cell_num: 3
+rnn_state_size: 1024
+horizontal_flip_prob: 0.5
